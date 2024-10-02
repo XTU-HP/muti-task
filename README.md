@@ -5,15 +5,16 @@ Requirements
 Python = 3.6.12 Pytorch = 1.0.1 sklearn = 0.0 numpy = 1.19.2 tensorflow = 1.13.1
 
 dataset
-Take HCFSL-NAS method on the IP dataset as an example: You can also download the hyperspectral datasets from the following link. Link: https://pan.baidu.com/s/1atfmqJJh134dxAeAF8KJaQ Extract code: 3vcy An example dataset folder has the following structure:
+Take NAFSL method on the IP dataset as an example: You can also download the hyperspectral datasets from the following link. Link: https://pan.baidu.com/s/1atfmqJJh134dxAeAF8KJaQ Extract code: 3vcy An example dataset folder has the following structure:
 
 datasets
 ├── PU
-│   ├── indian_pines.mat
-│   ├── indian_pines_corrected.mat
-│   ├── indian_pines_gt.mat
+├── KSC
+├── HU
 └── Chikusei_imdb_128.pickle
 └── IP
+└── Salinas
+└── PC
 
 
 ## Usage:
